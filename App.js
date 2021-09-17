@@ -31,13 +31,37 @@ export default function App() {
         <ScrollView>
           <Habitaciones
           modalRoom={modalRoom}
-          setModalRoom={setModalRoom}/>
+          setModalRoom={setModalRoom}
+          modalRoom2={modalRoom2}
+          setModalRoom2={setModalRoom2}
+          modalRoom3={modalRoom3}
+          setModalRoom3={setModalRoom3}
+          modalRoom4={modalRoom4}
+          setModalRoom4={setModalRoom4}
+          modalRoom5={modalRoom5}
+          setModalRoom5={setModalRoom5}
+          
+          />
           <Servicios
           modalServices={modalServices}
-          setModalServices={setModalServices}/>
+          setModalServices={setModalServices}
+          modalServices2={modalServices2}
+          setModalServices2={setModalServices2}
+          modalServices3={modalServices3}
+          setModalServices3={setModalServices3}
+          modalServices4={modalServices4}
+          setModalServices4={setModalServices4}
+          />
           <Explorar
           modalPlaces={modalPlaces}
-          setModalPlaces={setModalPlaces}/>
+          setModalPlaces={setModalPlaces}
+          modalPlaces2={modalPlaces2}
+          setModalPlaces2={setModalPlaces2}
+          modalPlaces3={modalPlaces3}
+          setModalPlaces3={setModalPlaces3}
+          modalPlaces4={modalPlaces4}
+          setModalPlaces4={setModalPlaces4}
+          />
         </ScrollView>
 
       </View>

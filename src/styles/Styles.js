@@ -53,7 +53,8 @@ const styles = StyleSheet.create({
       margin:50,
       padding:40,
       borderRadius:10,
-      flex:1
+      flex:1,
+      opacity:0.8,
     },
     vistaModal:{
       backgroundColor:"#000000aa",
